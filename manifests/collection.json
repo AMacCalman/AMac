@@ -1,0 +1,13 @@
+{
+  "id" : "https://AMacCalman.github.io/AMac/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in AMacCalman/AMac project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://AMacCalman.github.io/AMac/manifests/manifest.json",
+    "label" : "Random"
+  } ]
+}
