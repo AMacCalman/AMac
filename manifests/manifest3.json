@@ -1,0 +1,142 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://AMacCalman.github.io/AMac/manifests/manifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "Random",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/97968288/manifests/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Mr Nobody"
+  }, {
+    "label" : "Published",
+    "value" : [ {
+      "@value" : "Nowhere, circa 1400",
+      "@language" : "en"
+    }, {
+      "@value" : "Nulle part, environ 14eme siecle",
+      "@language" : "fr"
+    } ]
+  } ],
+  "description" : [ {
+    "@value" : "Some random images",
+    "@language" : "en"
+  } ],
+  "license" : "http://rightsstatements.org/vocab/NoC-NC/1.0/",
+  "attribution" : "BL, Yale and Web Archive",
+  "viewingHint" : "paged",
+  "sequences" : [ {
+    "@id" : "http://af9a4658-3dc7-4506-8b10-39fda110d44c",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://e0fb4257-25e7-4a2a-9347-93b2c95d2b51",
+      "@type" : "sc:Canvas",
+      "label" : "Valley Gardens",
+      "height" : 2400,
+      "width" : 3000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6b6c8cef-a494-434e-8fa4-fb31be9366fa",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/harrogate-valley-gardens/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/harrogate-valley-gardens",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2400,
+          "width" : 3000
+        },
+        "on" : "http://e0fb4257-25e7-4a2a-9347-93b2c95d2b51"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://amaccalman.github.io/AMac/annotations/49339325a4ef6bd1cb7ac5b671f12332.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://cf2aa104-360d-41f7-a92d-8f285820efcb",
+      "@type" : "sc:Canvas",
+      "label" : "Serious cat",
+      "height" : 5330,
+      "width" : 3783,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5f4e752e-3b62-438d-b60b-e736ebdb22f2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022589207.0x000067/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100022589207.0x000067",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 5330,
+          "width" : 3783
+        },
+        "on" : "http://cf2aa104-360d-41f7-a92d-8f285820efcb"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0fd6381b-f403-48b2-8370-873b9d655473",
+      "@type" : "sc:Canvas",
+      "label" : "Fluffy dog",
+      "height" : 4275,
+      "width" : 4941,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d5f5da16-8d32-41f1-8843-f4f80ad2219b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.collections.yale.edu/iiif/2/ycba:9e08d901-a26b-4acb-a768-28f90a062adf/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:9e08d901-a26b-4acb-a768-28f90a062adf",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4275,
+          "width" : 4941
+        },
+        "on" : "http://0fd6381b-f403-48b2-8370-873b9d655473"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://e0fb4257-25e7-4a2a-9347-93b2c95d2b51" ]
+  } ]
+}
