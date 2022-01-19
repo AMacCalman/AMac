@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://AMacCalman.github.io/AMac/manifests/manifest.json",
     "label" : "Random"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://AMacCalman.github.io/AMac/manifests/manifest3.json",
+    "label" : "Random"
   } ]
 }
