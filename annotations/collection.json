@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://AMacCalman.github.io/AMac/annotations/49339325a4ef6bd1cb7ac5b671f12332.json" ],
+  "@id" : "https://AMacCalman.github.io/AMac/annotations/collection.json",
+  "label" : "All annotations loaded in AMacCalman/AMac project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
